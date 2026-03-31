@@ -75,8 +75,8 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
-##🧠 Quy trình huấn luyện (Notebook)
+---
+## 🧠 Quy trình huấn luyện (Notebook)
 * **Dự án đi kèm file mayhoc.ipynb đóng vai trò là phòng thí nghiệm dữ liệu chuyên sâu, minh họa quy trình xây dựng AI bài bản:
 
 * **Tiền xử lý: Làm sạch dữ liệu, xử lý các điểm dị biệt (Outliers) và điền giá trị thiếu (Imputation).
