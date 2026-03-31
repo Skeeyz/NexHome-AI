@@ -1,0 +1,17 @@
+# Python
+.venv/
+venv/
+env/
+
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+model_xgb.json
+user_history.csv
