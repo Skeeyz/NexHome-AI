@@ -51,3 +51,37 @@ NexHome-AI/
 │   └── 4_Histories.py             # Workspace lịch sử
 ├── app.py                         # Cổng khởi chạy chính (Main Entry)
 └── requirements.txt               # Danh sách thư viện hệ thống
+
+## 🚀 Hướng dẫn cài đặt và chạy
+
+### 1. Yêu cầu hệ thống
+* Đã cài đặt **Python 3.9** trở lên.
+* Đã cài đặt môi trường ảo (Khuyên dùng để tránh xung đột thư viện).
+
+### 2. Cài đặt
+Tải dự án về máy và cài đặt các thư viện cần thiết:
+
+```bash
+# Clone dự án từ GitHub
+git clone [https://github.com/your-username/NexHome-AI.git](https://github.com/your-username/NexHome-AI.git)
+cd NexHome-AI
+
+# Cài đặt các thư viện hệ thống
+pip install -r requirements.txt
+
+### 2. Khởi chạy ứng dụng
+```bash
+streamlit run app.py
+
+##🧠 Quy trình huấn luyện (Notebook)
+* **Dự án đi kèm file mayhoc.ipynb đóng vai trò là phòng thí nghiệm dữ liệu chuyên sâu, minh họa quy trình xây dựng AI bài bản:
+
+* **Tiền xử lý: Làm sạch dữ liệu, xử lý các điểm dị biệt (Outliers) và điền giá trị thiếu (Imputation).
+
+* **Mã hóa (Encoding): Chuyển đổi dữ liệu phân loại (Quận, Thành phố, Pháp lý) bằng LabelEncoder để mô hình máy học có thể xử lý.
+
+* **Huấn luyện (Training): Đánh giá và huấn luyện đồng thời các thuật toán mạnh mẽ như Random Forest và XGBoost.
+
+* **Tối ưu hóa (Optimization): Tinh chỉnh các siêu tham số (Hyperparameters) thông qua bộ lọc GridSearchCV để đạt hiệu suất cao nhất.
+
+* **Xuất bản (Export): Xuất mô hình sang định dạng .json để ứng dụng Streamlit có thể sử dụng trực tiếp mà không cần huấn luyện lại mỗi khi khởi động.
