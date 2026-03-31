@@ -51,6 +51,7 @@ NexHome-AI/
 │   └── 4_Histories.py             # Workspace lịch sử
 ├── app.py                         # Cổng khởi chạy chính (Main Entry)
 └── requirements.txt               # Danh sách thư viện hệ thống
+```
 ---
 ## 🚀 Hướng dẫn cài đặt và chạy
 
@@ -68,11 +69,13 @@ cd NexHome-AI
 
 # Cài đặt các thư viện hệ thống
 pip install -r requirements.txt
----
+```
+
 ### 2. Khởi chạy ứng dụng
 ```bash
 streamlit run app.py
----
+```
+
 ##🧠 Quy trình huấn luyện (Notebook)
 * **Dự án đi kèm file mayhoc.ipynb đóng vai trò là phòng thí nghiệm dữ liệu chuyên sâu, minh họa quy trình xây dựng AI bài bản:
 
