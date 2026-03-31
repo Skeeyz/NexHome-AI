@@ -77,14 +77,14 @@ streamlit run app.py
 ```
 ---
 ## 🧠 Quy trình huấn luyện (Notebook)
-* **Dự án đi kèm file mayhoc.ipynb đóng vai trò là phòng thí nghiệm dữ liệu chuyên sâu, minh họa quy trình xây dựng AI bài bản:
+* Dự án đi kèm file mayhoc.ipynb đóng vai trò là phòng thí nghiệm dữ liệu chuyên sâu, minh họa quy trình xây dựng AI bài bản:
 
-* **Tiền xử lý: Làm sạch dữ liệu, xử lý các điểm dị biệt (Outliers) và điền giá trị thiếu (Imputation).
+* Tiền xử lý: Làm sạch dữ liệu, xử lý các điểm dị biệt (Outliers) và điền giá trị thiếu (Imputation).
 
-* **Mã hóa (Encoding): Chuyển đổi dữ liệu phân loại (Quận, Thành phố, Pháp lý) bằng LabelEncoder để mô hình máy học có thể xử lý.
+* Mã hóa (Encoding): Chuyển đổi dữ liệu phân loại (Quận, Thành phố, Pháp lý) bằng LabelEncoder để mô hình máy học có thể xử lý.
 
-* **Huấn luyện (Training): Đánh giá và huấn luyện đồng thời các thuật toán mạnh mẽ như Random Forest và XGBoost.
+* Huấn luyện (Training): Đánh giá và huấn luyện đồng thời các thuật toán mạnh mẽ như Random Forest và XGBoost.
 
-* **Tối ưu hóa (Optimization): Tinh chỉnh các siêu tham số (Hyperparameters) thông qua bộ lọc GridSearchCV để đạt hiệu suất cao nhất.
+* Tối ưu hóa (Optimization): Tinh chỉnh các siêu tham số (Hyperparameters) thông qua bộ lọc GridSearchCV để đạt hiệu suất cao nhất.
 
-* **Xuất bản (Export): Xuất mô hình sang định dạng .json để ứng dụng Streamlit có thể sử dụng trực tiếp mà không cần huấn luyện lại mỗi khi khởi động.
+* Xuất bản (Export): Xuất mô hình sang định dạng .json để ứng dụng Streamlit có thể sử dụng trực tiếp mà không cần huấn luyện lại mỗi khi khởi động.
