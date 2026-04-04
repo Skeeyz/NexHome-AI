@@ -64,7 +64,7 @@ Tải dự án về máy và cài đặt các thư viện cần thiết:
 
 ```bash
 # Clone dự án từ GitHub
-git clone [https://github.com/your-username/NexHome-AI.git](https://github.com/your-username/NexHome-AI.git)
+git clone https://github.com/Skeeyz/NexHome-AI.git
 cd NexHome-AI
 
 # Cài đặt các thư viện hệ thống
